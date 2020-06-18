@@ -1,0 +1,49 @@
+body{background-color:pink;}
+*{
+    margin:0px;;
+    padding:0px;
+}
+#header{ 
+    width:100%;
+    height:70px;
+    font-size:50px;
+    font:bold;
+    background-color: lightblue;
+    
+}
+#header p{
+text-align:center;
+color:blue;
+}
+
+#main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+#main div{
+    background-color:pink;
+    display:flex;
+   justify-content: center;
+   align-items: center;
+ flex-wrap: wrap;
+  width:100%;
+  height:100%;
+}
+#main div div{ 
+    width:500px;
+    background-color:pink;
+    display:flex;
+    margin:1px;
+    
+    
+}
+#main div div div { width:200px;
+    height:200px;
+    background-color:green;
+    margin:15px;
+    border-radius:10px;
+    
+}
